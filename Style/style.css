@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+body{
+    font-family: Arial;
+}
+body header {
+    background-color: #4f85a8;
+    height: 155px; width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+header .logIMG img{
+    margin: 22px 0px 0px 292px;
+    float: left;
+    /*
+    position:absolute;
+    */
+}
+header .logTXT{
+    width: 450px;
+    margin-left: -0.5%; margin-top: 2%;
+    color: snow;
+    padding-bottom: 0px;
+    float: left;
+    /*
+    position: absolute;
+     */
+}
+header .Phone{
+    text-align: right; float: right;
+    width: 450px;
+    margin-top: 3.4%; margin-right: 650px;
+    color: snow;
+    padding-bottom: 0px;
+    /*
+    position: absolute;
+     */
+}
+header .Menu{
+    position: fixed; left: 0px;
+    margin-top: 112px;
+    background-color: #d7d7d7;
+    width: 100%; height: 48px;
+    z-index: 100;
+}
+header .Menu li{
+    margin-top: 6px;
+    display: inline-block;
+    position: relative; left: 12.8%;
+}
+header .Menu li.sgIN{
+    color: #1a425a;
+    margin-left: 250px;
+}
+header .Menu li.sgUP{
+    color: #1a425a;
+}
+header .Menu a{
+    margin: 0px 0px;
+    display: inline-block;
+    color: #1a425a;
+    padding: 10px 5px 0px 5px;
+    width: 97px; height: 35px;
+    text-decoration:none; text-align: center; font-weight: bold;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+header .Menu a:hover {
+    background-image: url(../Picture/btnMnactiv.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+.sgIN a:hover {
+    background-image: url(../Picture/btnMnactiv.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+body vsMenu{
+     width: 100%; height: 400px;
+     background-color:#4c84a7;
+     position: absolute;
+     display: flex;
+}
+body vsMenu .MainPic{
+    background-image: url(../Picture/LoremPic.png);
+    border: 10px solid snow;
+    margin: 23px 0px 0px 260px;
+    position: relative;
+    width: 490px; height: 320px;
+    z-index: 98;
+}
+body vsMenu .LoremF{
+    background-color: #1a425a;
+    z-index: 99;
+    position: absolute;
+    width:100%; height:70px;
+    bottom: 0px; right: 0px;
+}
+body vsMenu .LorTXT{
+    color: white;
+    position: absolute;
+    padding-top: 54%; padding-left: 20px;
+    z-index: 99;
+}
+body vsMenu .MainPic .lorTXT h5{padding-top: 10px; margin-bottom: -10px}
+body vsMenu form .Register{
+    background-image: url(../Picture/Tenants.png);
+    width: 419px; height: 320px;
+    margin: 20px 20px 0px 20px;
+    position: relative;
+}
+body main .MidMenu{
+    width: 100%; height: 158px;
+    background-image: url(../Picture/middleMenu.png);
+    display: flex;
+    margin-top: 400px;
+}
+main .MidMenu table{margin-right: auto; margin-left: 260px;}
+main .MidMenu table img[src="../Picture/MdMnHouse.png"]{padding-right: 5px;}
+main .MidMenu table th{
+    text-align: left; font-size: 18px;
+    color: #3e73aa;
+    padding-top: 10px;
+}
+main .MidMenu table td{
+    width: 290px; height: 110px;
+    text-align: left;
+    color: #1a425a;
+    padding: 0px 30px 0px 0px;
+}
+main .TovFon{
+    width: 100%; height: 475px;
+    background-color: white;
+    display: flex;
+}
+footer{
+    /*visibility: hidden;*/
+}
+footer .Contacts{
+    width: 100%; height: 230px;
+    background-color: #4b7d9b;
+    display: flex;
+}

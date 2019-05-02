@@ -1,0 +1,198 @@
+
+body main .Registration{
+    width: 100%; height: 200px;
+    background-color: #618dad;
+    display: flex;
+}
+body main .Registration .formReg{
+    margin: 10px 15px 0px 248px;
+    width: 472px; height: 176px;
+    /* border-color: #0d0f4a;
+     border-style: solid;
+     border-width: 1;
+     */
+    float: left;
+}
+body main .Registration .formReg .inform{
+    background-color: #7ab1d5;
+    width: 472px; height: 111px;
+    border-radius: 7px;
+    border-color: white;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+}
+body main .Registration .formReg .inform .login{
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    margin: 15px 0px 0px 20px;
+}
+body main .Registration .formReg .inform .txtedit{
+    margin-left: 15px; margin-top: 15px;
+}
+body main .Registration .formReg .inform input[type="text"]{
+    width: 150px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(70, 144, 188);
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 8px;
+    display: inline-block;
+    float: left;
+}
+body main .Registration .formReg .inform .logbtn {
+    width: 95px;
+    height: 35px;
+    background-image: url("../Picture/btnLogin.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0px 5px 0px 10px;
+}body main .Registration .formReg .inform input[value="Login"]{
+     font-size: 16px;
+ }
+body main .Registration .formReg .line{
+    border-color: white;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 12px;
+    width: 472px; height: 50px;
+}
+
+body main .Registration .formReg .line .firstxt{
+    margin: 0px;
+    width: 298px;
+    height: 50px;
+    background: #088cb7;
+    position: relative;
+    /* -moz-border-radius: 12px;
+     -webkit-border-radius: 12px; */
+    border-radius: 10px 0 0 10px;
+    float: left;
+}
+body main .Registration .formReg .line .firstxt:before{
+    content: open-quote;
+    width: 0px;
+    height: 0px;
+    left: 100%;
+    top: 0px; /* position corner */
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #088cb7;
+    border-bottom: 25px solid transparent;
+
+}
+body main .Registration .formReg .line .secondtxt{
+    margin: 0px 0px 0px 0px;
+    border-color: #de760a #de760a #ce680a transparent;
+    border-style: solid;
+    border-width: 25px 26px 25px 26px;
+    border-radius: 0px 10px 10px 0px;
+    height: 0px;
+    width: 122px;
+    float: left;
+    position: relative;
+}
+
+body main .Registration .formReg .line .postxt1{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+body main .Registration .formReg .line .postxt2{
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body main .Registration .formReg2{
+    margin: 10px 0px 0px 15px;
+    width: 472px; height: 176px;
+    /* border-color: #0d0f4a;
+     border-style: solid;
+     border-width: 1;
+     */
+    float: left;
+}
+body main .Registration .formReg2 .inform2{
+    background-color: #7ab1d5;
+    width: 472px; height: 111px;
+    border-radius: 7px;
+    border-color: white;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+}
+body main .Registration .formReg2 .inform2 .login2{
+    font-size: 22px;
+    font-weight: normal;
+    color: white;
+    margin: 15px 0px 0px 20px;
+}
+body main .Registration .formReg2 .inform2 .txtedit2{
+    margin-left: 15px; margin-top: 15px;
+}
+body main .Registration .formReg2 .inform2 input[type="text"]{
+    width: 300px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(70, 144, 188);
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 8px;
+    display: inline-block;
+    float: left;
+}
+body main .Registration .formReg2 .inform2 .logbtn2 {
+    width: 110px;
+    height: 35px;
+    background-image: url("../Picture/btnLogin.png");
+    background-repeat: round;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0px 5px 0px 10px;
+}body main .Registration .formReg2 .inform2 input[value="Subscribe"]{
+     font-size: 16px;
+ }
+body main .Registration .formReg2 .line2{
+    margin-top: 16px;
+    width: 472px; height: 50px;
+}
+body main .Registration .formReg2 .line2 .soc{
+    width: 200px;
+}body main .Registration .formReg2 .line2 .soc ul{
+     margin: 0px; padding: 0px;
+ }
+body main .Registration .formReg2 .line2 .soc li{
+    display: inline-block;
+    cursor: pointer;
+}
+body main .Registration .formReg2 .line2 .soc .social1{
+    width: 51px; height: 51px;
+    background-image: url("../Picture/fb.png");
+}
+body main .Registration .formReg2 .line2 .soc .social2{
+    width: 51px; height: 51px;
+    background-image: url("../Picture/tw.png");
+}
+body main .Registration .formReg2 .line2 .soc .social3{
+    width: 51px; height: 51px;
+    background-image: url("../Picture/+.png");
+}
